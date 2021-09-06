@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <H1>Formulario</H1>
+    <Form>
+        <label for="Email">Email:</label> 
+        <input type="email" id="Email" name="Email"><!--Usario-->
+        <br>
+        <Label for="Password">Contraseña:</Label>
+        <input type="password" name="Password_1"><!--Confirmacion de contraseña-->
+        <br>
+        <Label for="Password_2">Repetir Contraseña:</Label>
+        <input type="password" name="Password_2"> <!--Confirmacion de contraseña-->
+        <br>
+        <label for="nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="nacimiento">
+        <br>
+        <label for="age">Edad:
+            <select name="age" id="age">
+                <option value="Mayor de Edad">18 a 99 Años</option>
+                <option value="Menor de Edad">10 a 17 Años</option>
+                <option value="Edad invalida"> Menos de 9 Años</option>
+            </select>
+        <br>
+        <label for="Nacionalidad">Nacionalidad:
+            <select name="Nacionalidad" id="Nacionalidad">
+                <option value="Arg">Argentino</option>
+                <option value="Ven">Venezolano</option>
+                <option value="Esp">Español</option>
+                <option value="Bol">Boliviano</option>
+                <option value="Paraguayo">Paraguayo</option>
+                <option value="Br">Brasilero</option>
+                <option value="Otro">Otro</option>
+             </select>
+             <br>
+             <label for="Spam">Desea Recibir Novedades</label>
+             <Input type="checkbox" id="Spam" name="Spam"></Input>
+            <br>
+            <br>
+        <input type="submit" value="Enviar"> <!--Boton de Enviar-->
+    </form>
+</body>
+</html>
